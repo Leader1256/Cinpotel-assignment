@@ -1,0 +1,217 @@
+
+body{
+    background-color: #f1f1f1;
+    font-family:sans-serif;
+}
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     list-style:none;
+     letter-spacing: 4px;
+     gap: 3rem;
+     font-size: 16px;
+     font-weight: bold;
+    }
+
+  @media (max-width:700px) {
+    .list{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       list-style:none;
+       letter-spacing: 0px;
+       gap: 10px;
+       font-size: 10px;
+       font-weight: bold;
+    }
+  }  
+  @media  (max-width:500px) {
+    .list{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       list-style:none;
+       letter-spacing: 0px;
+       gap: 5px;
+       font-size: 10px;
+       font-weight: bold;
+    }
+  }  
+.font-awesome{
+margin-left: 8rem;
+}
+.header-list{
+    background-color: rgba(255, 248, 248, 0.441);
+    padding: 0.5px;
+    width:70rem;
+}
+.main-image{
+    background-color: red;
+     background-image:linear-gradient(to right, rgba(197, 18, 170, 0.952) , yellow);  
+     width:70rem;
+     height: 37rem;
+   
+}
+
+.main-image1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.second-slide{
+    background-color: red;
+    background-image: linear-gradient(to right, rgba(197, 18, 170, 0.952) , yellow);  
+    width:70rem;
+    height: 37rem;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+  }
+
+  @media (max-width:700px){
+     .main-image1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap:1rem;
+     }
+     .second-slide{
+      background-color: red;
+      background-image: linear-gradient(to right, rgba(197, 18, 170, 0.952) , yellow);  
+      width:70rem;
+      height: 90rem;
+  }
+     }
+
+
+     @media (max-width:500px){
+      .main-image1{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap:1rem;
+      }
+      .second-slide{
+        background-color: red;
+        background-image: linear-gradient(to right, rgba(197, 18, 170, 0.952) , yellow);  
+        width:70rem;
+        height: 90rem;
+    }
+      }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-top-right-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+  }
+
+  .card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .card p {
+    font-size: 18px;
+    color: #1d1c1c;
+  }
+
+
+  img{
+    width: 95%;
+    aspect-ratio: 3/2;
+  }
+  .cardTitle{
+    text-align: center;
+    font-weight: bolder;
+  }
+  .main-title{
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 44px;
+    margin-bottom: none;
+  }
+
+
+
+
+  .hero {
+    background-image: url('img/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-right: 12rem;
+  }
+  
+  .hero p {
+    font-size: 18px;
+
+  }
+
+  .heroContent{
+   overflow-wrap: break-word;
+   background-color:rgba(230, 8, 8, 0.4);
+   width:30rem;
+   margin-right: 28rem;
+    margin-bottom: 8rem;
+  }
+  
+     @media (max-width:700px){
+      .heroContent{
+        overflow-wrap: break-word;
+        background-color:rgba(230, 8, 8, 0.4);
+        width:24rem;
+        margin-right: 16rem;
+         margin-bottom: 8rem;
+       }
+     }
+  .capsule-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(215, 205, 205, 0.5);
+    color: black;
+    margin-left: 29rem;
+    margin-top: 3rem;
+    width: 9rem;
+    height: 3rem;
+  }
+  
+  @media (max-width: 480px) {
+    .capsule-button {
+      font-size: 14px;
+    }
+  }
+  
